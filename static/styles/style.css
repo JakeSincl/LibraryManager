@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  background-color:#78ccf3;
+}
+
+.top_navigation_bar {
+  background-color: #666;
+  overflow: hidden;
+}
+
+.top_navigation_bar a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the color of links on hover */
+.top_navigation_bar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.top_navigation_bar a#current_navigation_button {
+  float: left;
+  background-color: #04AA6D;
+  color: white;
+}
+
+#role_selector {
+  background-color: #F39F78;
+  border-style: none none none solid;
+  border-color: #ee7841;
+  overflow: hidden;
+}
+
+#role_selector > * {
+  margin: 5px;
+  text-align: center;
+}
+
+.role_options {
+  color: #f2f2f2;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin-bottom: 5px;
+  background-color: #F39F78;
+  border-style: solid;
+  border-color: #ee7841;
+  display: inline-block;
+}
+
+.role_options:hover {
+  background-color: #ddd;
+  color: black;
+}
